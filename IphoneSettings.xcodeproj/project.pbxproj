@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF39C3B62855F878008C5F73 /* ModellCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF39C3B52855F878008C5F73 /* ModellCellData.swift */; };
 		BF89C1132855EF2E00E888DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89C1122855EF2E00E888DE /* AppDelegate.swift */; };
 		BF89C1152855EF2E00E888DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89C1142855EF2E00E888DE /* SceneDelegate.swift */; };
-		BF89C1172855EF2E00E888DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89C1162855EF2E00E888DE /* ViewController.swift */; };
 		BF89C11A2855EF2E00E888DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF89C1182855EF2E00E888DE /* Main.storyboard */; };
 		BF89C11C2855EF3100E888DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF89C11B2855EF3100E888DE /* Assets.xcassets */; };
 		BF89C11F2855EF3100E888DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF89C11D2855EF3100E888DE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF39C3B52855F878008C5F73 /* ModellCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModellCellData.swift; sourceTree = "<group>"; };
 		BF89C10F2855EF2E00E888DE /* IphoneSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF89C1122855EF2E00E888DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF89C1142855EF2E00E888DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF89C1162855EF2E00E888DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF89C1192855EF2E00E888DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF89C11B2855EF3100E888DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF89C11E2855EF3100E888DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF39C3B42855F80C008C5F73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF39C3B52855F878008C5F73 /* ModellCellData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BF89C1062855EF2E00E888DE = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +64,9 @@
 		BF89C1112855EF2E00E888DE /* IphoneSettings */ = {
 			isa = PBXGroup;
 			children = (
+				BF39C3B42855F80C008C5F73 /* Model */,
 				BF89C1122855EF2E00E888DE /* AppDelegate.swift */,
 				BF89C1142855EF2E00E888DE /* SceneDelegate.swift */,
-				BF89C1162855EF2E00E888DE /* ViewController.swift */,
 				BF89C1182855EF2E00E888DE /* Main.storyboard */,
 				BF89C11B2855EF3100E888DE /* Assets.xcassets */,
 				BF89C11D2855EF3100E888DE /* LaunchScreen.storyboard */,
@@ -138,9 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF89C1172855EF2E00E888DE /* ViewController.swift in Sources */,
 				BF89C1132855EF2E00E888DE /* AppDelegate.swift in Sources */,
 				BF89C1152855EF2E00E888DE /* SceneDelegate.swift in Sources */,
+				BF39C3B62855F878008C5F73 /* ModellCellData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
